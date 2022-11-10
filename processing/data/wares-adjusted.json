@@ -1,0 +1,770 @@
+[
+    {
+        "@sel": "/wares/ware[@id='advancedcomposites']/price/@min",
+        "#text": "476"
+    },
+    {
+        "@sel": "/wares/ware[@id='advancedcomposites']/price/@average",
+        "#text": "594"
+    },
+    {
+        "@sel": "/wares/ware[@id='advancedcomposites']/price/@max",
+        "#text": "713"
+    },
+    {
+        "@sel": "/wares/ware[@id='advancedcomposites']/production[@method='default']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='advancedcomposites']/production[@method='teladi']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='advancedelectronics']/price/@min",
+        "#text": "782"
+    },
+    {
+        "@sel": "/wares/ware[@id='advancedelectronics']/price/@average",
+        "#text": "1116"
+    },
+    {
+        "@sel": "/wares/ware[@id='advancedelectronics']/price/@max",
+        "#text": "1450"
+    },
+    {
+        "@sel": "/wares/ware[@id='advancedelectronics']/production[@method='default']/@time",
+        "#text": "793"
+    },
+    {
+        "@sel": "/wares/ware[@id='antimattercells']/price/@min",
+        "#text": "134"
+    },
+    {
+        "@sel": "/wares/ware[@id='antimattercells']/price/@average",
+        "#text": "223"
+    },
+    {
+        "@sel": "/wares/ware[@id='antimattercells']/price/@max",
+        "#text": "311"
+    },
+    {
+        "@sel": "/wares/ware[@id='antimattercells']/production[@method='default']/@time",
+        "#text": "132"
+    },
+    {
+        "@sel": "/wares/ware[@id='antimatterconverters']/price/@min",
+        "#text": "273"
+    },
+    {
+        "@sel": "/wares/ware[@id='antimatterconverters']/price/@average",
+        "#text": "390"
+    },
+    {
+        "@sel": "/wares/ware[@id='antimatterconverters']/price/@max",
+        "#text": "508"
+    },
+    {
+        "@sel": "/wares/ware[@id='antimatterconverters']/production[@method='default']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='claytronics']/price/@min",
+        "#text": "1908"
+    },
+    {
+        "@sel": "/wares/ware[@id='claytronics']/price/@average",
+        "#text": "2244"
+    },
+    {
+        "@sel": "/wares/ware[@id='claytronics']/price/@max",
+        "#text": "2581"
+    },
+    {
+        "@sel": "/wares/ware[@id='claytronics']/production[@method='default']/@time",
+        "#text": "991"
+    },
+    {
+        "@sel": "/wares/ware[@id='claytronics']/production[@method='recycling']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='dronecomponents']/price/@min",
+        "#text": "754"
+    },
+    {
+        "@sel": "/wares/ware[@id='dronecomponents']/price/@average",
+        "#text": "1006"
+    },
+    {
+        "@sel": "/wares/ware[@id='dronecomponents']/price/@max",
+        "#text": "1257"
+    },
+    {
+        "@sel": "/wares/ware[@id='dronecomponents']/production[@method='default']/@time",
+        "#text": "1320"
+    },
+    {
+        "@sel": "/wares/ware[@id='energycells']/price/@min",
+        "#text": "11"
+    },
+    {
+        "@sel": "/wares/ware[@id='energycells']/price/@average",
+        "#text": "18"
+    },
+    {
+        "@sel": "/wares/ware[@id='energycells']/price/@max",
+        "#text": "25"
+    },
+    {
+        "@sel": "/wares/ware[@id='energycells']/production[@method='default']/@time",
+        "#text": "66"
+    },
+    {
+        "@sel": "/wares/ware[@id='engineparts']/price/@min",
+        "#text": "141"
+    },
+    {
+        "@sel": "/wares/ware[@id='engineparts']/price/@average",
+        "#text": "201"
+    },
+    {
+        "@sel": "/wares/ware[@id='engineparts']/price/@max",
+        "#text": "261"
+    },
+    {
+        "@sel": "/wares/ware[@id='engineparts']/production[@method='default']/@time",
+        "#text": "991"
+    },
+    {
+        "@sel": "/wares/ware[@id='engineparts']/production[@method='teladi']/@time",
+        "#text": "991"
+    },
+    {
+        "@sel": "/wares/ware[@id='fieldcoils']/price/@min",
+        "#text": "272"
+    },
+    {
+        "@sel": "/wares/ware[@id='fieldcoils']/price/@average",
+        "#text": "454"
+    },
+    {
+        "@sel": "/wares/ware[@id='fieldcoils']/price/@max",
+        "#text": "634"
+    },
+    {
+        "@sel": "/wares/ware[@id='fieldcoils']/production[@method='default']/@time",
+        "#text": "660"
+    },
+    {
+        "@sel": "/wares/ware[@id='foodrations']/price/@min",
+        "#text": "14"
+    },
+    {
+        "@sel": "/wares/ware[@id='foodrations']/price/@average",
+        "#text": "24"
+    },
+    {
+        "@sel": "/wares/ware[@id='foodrations']/price/@max",
+        "#text": "32"
+    },
+    {
+        "@sel": "/wares/ware[@id='foodrations']/production[@method='default']/@time",
+        "#text": "264"
+    },
+    {
+        "@sel": "/wares/ware[@id='graphene']/price/@min",
+        "#text": "111"
+    },
+    {
+        "@sel": "/wares/ware[@id='graphene']/price/@average",
+        "#text": "183"
+    },
+    {
+        "@sel": "/wares/ware[@id='graphene']/price/@max",
+        "#text": "257"
+    },
+    {
+        "@sel": "/wares/ware[@id='graphene']/production[@method='default']/@time",
+        "#text": "264"
+    },
+    {
+        "@sel": "/wares/ware[@id='helium']/price/@min",
+        "#text": "41"
+    },
+    {
+        "@sel": "/wares/ware[@id='helium']/price/@average",
+        "#text": "49"
+    },
+    {
+        "@sel": "/wares/ware[@id='helium']/price/@max",
+        "#text": "57"
+    },
+    {
+        "@sel": "/wares/ware[@id='hullparts']/price/@min",
+        "#text": "161"
+    },
+    {
+        "@sel": "/wares/ware[@id='hullparts']/price/@average",
+        "#text": "230"
+    },
+    {
+        "@sel": "/wares/ware[@id='hullparts']/price/@max",
+        "#text": "300"
+    },
+    {
+        "@sel": "/wares/ware[@id='hullparts']/production[@method='default']/@time",
+        "#text": "991"
+    },
+    {
+        "@sel": "/wares/ware[@id='hullparts']/production[@method='teladi']/@time",
+        "#text": "991"
+    },
+    {
+        "@sel": "/wares/ware[@id='hullparts']/production[@method='recycling']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='hydrogen']/price/@min",
+        "#text": "54"
+    },
+    {
+        "@sel": "/wares/ware[@id='hydrogen']/price/@average",
+        "#text": "64"
+    },
+    {
+        "@sel": "/wares/ware[@id='hydrogen']/price/@max",
+        "#text": "74"
+    },
+    {
+        "@sel": "/wares/ware[@id='ice']/price/@min",
+        "#text": "29"
+    },
+    {
+        "@sel": "/wares/ware[@id='ice']/price/@average",
+        "#text": "33"
+    },
+    {
+        "@sel": "/wares/ware[@id='ice']/price/@max",
+        "#text": "39"
+    },
+    {
+        "@sel": "/wares/ware[@id='majadust']/price/@min",
+        "#text": "104"
+    },
+    {
+        "@sel": "/wares/ware[@id='majadust']/price/@average",
+        "#text": "229"
+    },
+    {
+        "@sel": "/wares/ware[@id='majadust']/price/@max",
+        "#text": "356"
+    },
+    {
+        "@sel": "/wares/ware[@id='majadust']/production[@method='default']/@time",
+        "#text": "660"
+    },
+    {
+        "@sel": "/wares/ware[@id='majasnails']/price/@min",
+        "#text": "39"
+    },
+    {
+        "@sel": "/wares/ware[@id='majasnails']/price/@average",
+        "#text": "64"
+    },
+    {
+        "@sel": "/wares/ware[@id='majasnails']/price/@max",
+        "#text": "90"
+    },
+    {
+        "@sel": "/wares/ware[@id='majasnails']/production[@method='default']/@time",
+        "#text": "496"
+    },
+    {
+        "@sel": "/wares/ware[@id='meat']/price/@min",
+        "#text": "32"
+    },
+    {
+        "@sel": "/wares/ware[@id='meat']/price/@average",
+        "#text": "53"
+    },
+    {
+        "@sel": "/wares/ware[@id='meat']/price/@max",
+        "#text": "75"
+    },
+    {
+        "@sel": "/wares/ware[@id='meat']/production[@method='default']/@time",
+        "#text": "496"
+    },
+    {
+        "@sel": "/wares/ware[@id='medicalsupplies']/price/@min",
+        "#text": "48"
+    },
+    {
+        "@sel": "/wares/ware[@id='medicalsupplies']/price/@average",
+        "#text": "73"
+    },
+    {
+        "@sel": "/wares/ware[@id='medicalsupplies']/price/@max",
+        "#text": "98"
+    },
+    {
+        "@sel": "/wares/ware[@id='medicalsupplies']/production[@method='default']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='medicalsupplies']/production[@method='paranid']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='medicalsupplies']/production[@method='teladi']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='methane']/price/@min",
+        "#text": "46"
+    },
+    {
+        "@sel": "/wares/ware[@id='methane']/price/@average",
+        "#text": "53"
+    },
+    {
+        "@sel": "/wares/ware[@id='methane']/price/@max",
+        "#text": "61"
+    },
+    {
+        "@sel": "/wares/ware[@id='microchips']/price/@min",
+        "#text": "886"
+    },
+    {
+        "@sel": "/wares/ware[@id='microchips']/price/@average",
+        "#text": "1043"
+    },
+    {
+        "@sel": "/wares/ware[@id='microchips']/price/@max",
+        "#text": "1199"
+    },
+    {
+        "@sel": "/wares/ware[@id='microchips']/production[@method='default']/@time",
+        "#text": "660"
+    },
+    {
+        "@sel": "/wares/ware[@id='missilecomponents']/price/@min",
+        "#text": "7"
+    },
+    {
+        "@sel": "/wares/ware[@id='missilecomponents']/price/@average",
+        "#text": "10"
+    },
+    {
+        "@sel": "/wares/ware[@id='missilecomponents']/price/@max",
+        "#text": "15"
+    },
+    {
+        "@sel": "/wares/ware[@id='missilecomponents']/production[@method='default']/@time",
+        "#text": "991"
+    },
+    {
+        "@sel": "/wares/ware[@id='nividium']/price/@min",
+        "#text": "478"
+    },
+    {
+        "@sel": "/wares/ware[@id='nividium']/price/@average",
+        "#text": "561"
+    },
+    {
+        "@sel": "/wares/ware[@id='nividium']/price/@max",
+        "#text": "646"
+    },
+    {
+        "@sel": "/wares/ware[@id='nostropoil']/price/@min",
+        "#text": "22"
+    },
+    {
+        "@sel": "/wares/ware[@id='nostropoil']/price/@average",
+        "#text": "38"
+    },
+    {
+        "@sel": "/wares/ware[@id='nostropoil']/price/@max",
+        "#text": "52"
+    },
+    {
+        "@sel": "/wares/ware[@id='nostropoil']/production[@method='default']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='ore']/price/@min",
+        "#text": "48"
+    },
+    {
+        "@sel": "/wares/ware[@id='ore']/price/@average",
+        "#text": "56"
+    },
+    {
+        "@sel": "/wares/ware[@id='ore']/price/@max",
+        "#text": "64"
+    },
+    {
+        "@sel": "/wares/ware[@id='plasmaconductors']/price/@min",
+        "#text": "846"
+    },
+    {
+        "@sel": "/wares/ware[@id='plasmaconductors']/price/@average",
+        "#text": "1129"
+    },
+    {
+        "@sel": "/wares/ware[@id='plasmaconductors']/price/@max",
+        "#text": "1411"
+    },
+    {
+        "@sel": "/wares/ware[@id='plasmaconductors']/production[@method='default']/@time",
+        "#text": "991"
+    },
+    {
+        "@sel": "/wares/ware[@id='quantumtubes']/price/@min",
+        "#text": "248"
+    },
+    {
+        "@sel": "/wares/ware[@id='quantumtubes']/price/@average",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='quantumtubes']/price/@max",
+        "#text": "413"
+    },
+    {
+        "@sel": "/wares/ware[@id='quantumtubes']/production[@method='default']/@time",
+        "#text": "793"
+    },
+    {
+        "@sel": "/wares/ware[@id='refinedmetals']/price/@min",
+        "#text": "98"
+    },
+    {
+        "@sel": "/wares/ware[@id='refinedmetals']/price/@average",
+        "#text": "163"
+    },
+    {
+        "@sel": "/wares/ware[@id='refinedmetals']/price/@max",
+        "#text": "228"
+    },
+    {
+        "@sel": "/wares/ware[@id='refinedmetals']/production[@method='default']/@time",
+        "#text": "165"
+    },
+    {
+        "@sel": "/wares/ware[@id='scanningarrays']/price/@min",
+        "#text": "927"
+    },
+    {
+        "@sel": "/wares/ware[@id='scanningarrays']/price/@average",
+        "#text": "1159"
+    },
+    {
+        "@sel": "/wares/ware[@id='scanningarrays']/price/@max",
+        "#text": "1391"
+    },
+    {
+        "@sel": "/wares/ware[@id='scanningarrays']/production[@method='default']/@time",
+        "#text": "660"
+    },
+    {
+        "@sel": "/wares/ware[@id='scanningarrays']/production[@method='teladi']/@time",
+        "#text": "660"
+    },
+    {
+        "@sel": "/wares/ware[@id='scrapmetal']/price/@min",
+        "#text": "350"
+    },
+    {
+        "@sel": "/wares/ware[@id='scrapmetal']/price/@average",
+        "#text": "413"
+    },
+    {
+        "@sel": "/wares/ware[@id='scrapmetal']/price/@max",
+        "#text": "475"
+    },
+    {
+        "@sel": "/wares/ware[@id='scrapmetal']/production[@method='processing']/@time",
+        "#text": "66"
+    },
+    {
+        "@sel": "/wares/ware[@id='shieldcomponents']/price/@min",
+        "#text": "125"
+    },
+    {
+        "@sel": "/wares/ware[@id='shieldcomponents']/price/@average",
+        "#text": "207"
+    },
+    {
+        "@sel": "/wares/ware[@id='shieldcomponents']/price/@max",
+        "#text": "291"
+    },
+    {
+        "@sel": "/wares/ware[@id='shieldcomponents']/production[@method='default']/@time",
+        "#text": "1320"
+    },
+    {
+        "@sel": "/wares/ware[@id='silicon']/price/@min",
+        "#text": "123"
+    },
+    {
+        "@sel": "/wares/ware[@id='silicon']/price/@average",
+        "#text": "143"
+    },
+    {
+        "@sel": "/wares/ware[@id='silicon']/price/@max",
+        "#text": "165"
+    },
+    {
+        "@sel": "/wares/ware[@id='siliconwafers']/price/@min",
+        "#text": "199"
+    },
+    {
+        "@sel": "/wares/ware[@id='siliconwafers']/price/@average",
+        "#text": "329"
+    },
+    {
+        "@sel": "/wares/ware[@id='siliconwafers']/price/@max",
+        "#text": "461"
+    },
+    {
+        "@sel": "/wares/ware[@id='siliconwafers']/production[@method='default']/@time",
+        "#text": "199"
+    },
+    {
+        "@sel": "/wares/ware[@id='smartchips']/price/@min",
+        "#text": "51"
+    },
+    {
+        "@sel": "/wares/ware[@id='smartchips']/price/@average",
+        "#text": "63"
+    },
+    {
+        "@sel": "/wares/ware[@id='smartchips']/price/@max",
+        "#text": "76"
+    },
+    {
+        "@sel": "/wares/ware[@id='smartchips']/production[@method='default']/@time",
+        "#text": "660"
+    },
+    {
+        "@sel": "/wares/ware[@id='sojabeans']/price/@min",
+        "#text": "44"
+    },
+    {
+        "@sel": "/wares/ware[@id='sojabeans']/price/@average",
+        "#text": "74"
+    },
+    {
+        "@sel": "/wares/ware[@id='sojabeans']/price/@max",
+        "#text": "103"
+    },
+    {
+        "@sel": "/wares/ware[@id='sojabeans']/production[@method='default']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='sojahusk']/price/@min",
+        "#text": "21"
+    },
+    {
+        "@sel": "/wares/ware[@id='sojahusk']/price/@average",
+        "#text": "36"
+    },
+    {
+        "@sel": "/wares/ware[@id='sojahusk']/price/@max",
+        "#text": "50"
+    },
+    {
+        "@sel": "/wares/ware[@id='sojahusk']/production[@method='default']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='spacefuel']/price/@min",
+        "#text": "66"
+    },
+    {
+        "@sel": "/wares/ware[@id='spacefuel']/price/@average",
+        "#text": "147"
+    },
+    {
+        "@sel": "/wares/ware[@id='spacefuel']/price/@max",
+        "#text": "228"
+    },
+    {
+        "@sel": "/wares/ware[@id='spacefuel']/production[@method='default']/@time",
+        "#text": "528"
+    },
+    {
+        "@sel": "/wares/ware[@id='spaceweed']/price/@min",
+        "#text": "83"
+    },
+    {
+        "@sel": "/wares/ware[@id='spaceweed']/price/@average",
+        "#text": "183"
+    },
+    {
+        "@sel": "/wares/ware[@id='spaceweed']/price/@max",
+        "#text": "283"
+    },
+    {
+        "@sel": "/wares/ware[@id='spaceweed']/production[@method='default']/@time",
+        "#text": "660"
+    },
+    {
+        "@sel": "/wares/ware[@id='spices']/price/@min",
+        "#text": "14"
+    },
+    {
+        "@sel": "/wares/ware[@id='spices']/price/@average",
+        "#text": "22"
+    },
+    {
+        "@sel": "/wares/ware[@id='spices']/price/@max",
+        "#text": "31"
+    },
+    {
+        "@sel": "/wares/ware[@id='spices']/production[@method='default']/@time",
+        "#text": "660"
+    },
+    {
+        "@sel": "/wares/ware[@id='sunriseflowers']/price/@min",
+        "#text": "53"
+    },
+    {
+        "@sel": "/wares/ware[@id='sunriseflowers']/price/@average",
+        "#text": "88"
+    },
+    {
+        "@sel": "/wares/ware[@id='sunriseflowers']/price/@max",
+        "#text": "124"
+    },
+    {
+        "@sel": "/wares/ware[@id='sunriseflowers']/production[@method='default']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='superfluidcoolant']/price/@min",
+        "#text": "100"
+    },
+    {
+        "@sel": "/wares/ware[@id='superfluidcoolant']/price/@average",
+        "#text": "165"
+    },
+    {
+        "@sel": "/wares/ware[@id='superfluidcoolant']/price/@max",
+        "#text": "233"
+    },
+    {
+        "@sel": "/wares/ware[@id='superfluidcoolant']/production[@method='default']/@time",
+        "#text": "264"
+    },
+    {
+        "@sel": "/wares/ware[@id='swampplant']/price/@min",
+        "#text": "56"
+    },
+    {
+        "@sel": "/wares/ware[@id='swampplant']/price/@average",
+        "#text": "93"
+    },
+    {
+        "@sel": "/wares/ware[@id='swampplant']/price/@max",
+        "#text": "129"
+    },
+    {
+        "@sel": "/wares/ware[@id='swampplant']/production[@method='default']/@time",
+        "#text": "496"
+    },
+    {
+        "@sel": "/wares/ware[@id='teladianium']/price/@min",
+        "#text": "134"
+    },
+    {
+        "@sel": "/wares/ware[@id='teladianium']/price/@average",
+        "#text": "223"
+    },
+    {
+        "@sel": "/wares/ware[@id='teladianium']/price/@max",
+        "#text": "312"
+    },
+    {
+        "@sel": "/wares/ware[@id='teladianium']/production[@method='default']/@time",
+        "#text": "132"
+    },
+    {
+        "@sel": "/wares/ware[@id='turretcomponents']/price/@min",
+        "#text": "181"
+    },
+    {
+        "@sel": "/wares/ware[@id='turretcomponents']/price/@average",
+        "#text": "301"
+    },
+    {
+        "@sel": "/wares/ware[@id='turretcomponents']/price/@max",
+        "#text": "422"
+    },
+    {
+        "@sel": "/wares/ware[@id='turretcomponents']/production[@method='default']/@time",
+        "#text": "1981"
+    },
+    {
+        "@sel": "/wares/ware[@id='water']/price/@min",
+        "#text": "36"
+    },
+    {
+        "@sel": "/wares/ware[@id='water']/price/@average",
+        "#text": "59"
+    },
+    {
+        "@sel": "/wares/ware[@id='water']/price/@max",
+        "#text": "82"
+    },
+    {
+        "@sel": "/wares/ware[@id='water']/production[@method='default']/@time",
+        "#text": "132"
+    },
+    {
+        "@sel": "/wares/ware[@id='weaponcomponents']/price/@min",
+        "#text": "189"
+    },
+    {
+        "@sel": "/wares/ware[@id='weaponcomponents']/price/@average",
+        "#text": "314"
+    },
+    {
+        "@sel": "/wares/ware[@id='weaponcomponents']/price/@max",
+        "#text": "439"
+    },
+    {
+        "@sel": "/wares/ware[@id='weaponcomponents']/production[@method='default']/@time",
+        "#text": "1981"
+    },
+    {
+        "@sel": "/wares/ware[@id='wheat']/price/@min",
+        "#text": "21"
+    },
+    {
+        "@sel": "/wares/ware[@id='wheat']/price/@average",
+        "#text": "35"
+    },
+    {
+        "@sel": "/wares/ware[@id='wheat']/price/@max",
+        "#text": "49"
+    },
+    {
+        "@sel": "/wares/ware[@id='wheat']/production[@method='default']/@time",
+        "#text": "330"
+    },
+    {
+        "@sel": "/wares/ware[@id='x4ep1_jttware']/price/@min",
+        "#text": "2"
+    },
+    {
+        "@sel": "/wares/ware[@id='x4ep1_jttware']/price/@average",
+        "#text": "2"
+    },
+    {
+        "@sel": "/wares/ware[@id='x4ep1_jttware']/price/@max",
+        "#text": "2"
+    }
+]

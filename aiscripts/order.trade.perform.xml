@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <add sel="//execute_trade[@tradeoffer='$tradedeal']" pos="after">
+        <do_if value="$traderesult">
+            <set_command_action commandaction="commandaction.executingtrade" />
+
+            <!-- 
+                Trading time calculation is 'quite' simple:
+                    - each 'service crew' on board will collaborate in the following matter:
+                        - 1 crew member can carry up to 14 m³ (carry_volume)
+                        - 1 crew member takes 2 seconds to load/unload the amount above (time_to_transfer)
+                    - the amount each crew member will load/unload is defined as follows:
+                        - amount_by_crew_member = amount * ware.volume / (service_crew.count + dock.crew.count)
+                    - the time it will take for the trade to complete is defined as follows:
+                        - time_load_unload = amount_by_crew_member * time_to_transfer (2 seconds) / carry_volume (14 m³) -->
+
+            <!-- ====== MAIN PARAMETERS ====== -->
+            <!-- volume that one employee can carry by an amount of time -->
+            <set_value name="$lttcrewcarryvolume" exact="14" /> 
+            <!-- time that one employee takes to carry an amount of volume -->
+            <set_value name="$lttcrewcarrytime" exact="2" /> 
+            <!-- the amount of dock crew available to help -->
+            <set_value name="$lttservicecrewondock" min="2" max="15" />
+            <!-- ====== MAIN PARAMETERS ====== -->
+
+            <!-- the amount of 'service crew' available on the ship -->
+            <set_value name="$lttservicecrewonboard" exact="this.ship.people.{entityrole.service}.list.count" />
+
+            <!-- find out the average skill on the ship (for 'service crew' only) -->
+            <set_value name="$lttservicecrewcombinedskill" exact="this.ship.people.{entityrole.service}.combinedskill" />
+            <set_value name="$lttservicecrewavgskill" exact="0" />
+            <do_if value="$lttservicecrewcombinedskill != 0">
+                <set_value name="$lttservicecrewavgskill" exact="$lttservicecrewcombinedskill / $lttservicecrewonboard" />
+            </do_if>
+
+            <!-- 
+                map average skill from the range [0, 100] to the range [1, 1.75] 
+                meaning the maximum possible efficiency would be up to 75% on top of the service crew on board
+            -->
+            <set_value name="$lttefficiency" exact="1f + ((1.75f - 1f) / (100f - 0f)) * ($lttservicecrewavgskill - 0f)" />
+
+            <!-- apply efficiency calculation -->
+            <set_value name="$lttcargoservicecalculated" exact="($lttservicecrewonboard * $lttefficiency)i" />
+
+            <!-- sum the amount of 'service crew' onboard (calculated) with the service crew at the docking area -->
+            <set_value name="$lttcargoservicecalculated" operation="add" exact="$lttservicecrewondock" />
+
+            <!-- sum the amount of 'service crew' onboard (not calculated) with the service crew at the docking area
+                 this is for debugging purposes -->
+            <set_value name="$lttcargoservice" exact="$lttservicecrewonboard + $lttservicecrewondock" />
+
+            <!-- for the on going trade, how many volumes each employee will colaborate -->
+            <set_value name="$lttcrewtradecarry" exact="$tradedeal.transferredamount * $tradedeal.ware.volume / $lttcargoservicecalculated" />
+
+            <!-- the actual time it will take for the trade to complete -->
+            <set_value name="$ltttradetime" exact="($lttcrewtradecarry * $lttcrewcarrytime / $lttcrewcarryvolume)s" />
+
+            <!-- <debug_text chance="100" text="'%1 (%2) Trading %3x %4. %5 employees working on it (%6 provided by dock crew). (%7 sec required - crew efficiency of %8).'.[this.ship.knownname, this.ship.idcode, $tradedeal.transferredamount, $tradedeal.ware.name, $lttcargoservice, $lttservicecrewondock, $ltttradetime, $lttefficiency]" /> -->
+
+            <wait exact="$ltttradetime" />
+        </do_if>
+    </add>
+</diff>

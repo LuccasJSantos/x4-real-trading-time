@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="ImprovedTradingTime" name="Improved Trading Time" description="Make trading time more realistic." author="LuccasJSantos" version="3" date="2022-11-03" save="0" enabled="1">
+    <text language="44" name="Improved Trading Time" description="Make trading time more realistic (longer)." author="LuccasJSantos" />
+    <text language="55" name="Improved Trading Time" description="Faz com que o tempo de trade seja mais realista (mais longo)." author="LuccasJSantos" />
+</content>

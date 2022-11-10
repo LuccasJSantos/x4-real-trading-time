@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js -q"
+  },
+  "dependencies": {
+    "ramda": "^0.28.0"
+  },
+  "devDependencies": {
+    "@types/ramda": "^0.28.19",
+    "nodemon": "^2.0.20"
+  },
+  "name": "processing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
