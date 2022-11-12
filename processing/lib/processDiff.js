@@ -1,6 +1,10 @@
 const R = require('ramda')
 const { ifHas } = require('./utils')
 
+/**
+ * @param {Record<string, any>} json 
+ * @returns 
+ */
 function processDiff(json) {
     const generatePrices = ware => ([ 
         {
