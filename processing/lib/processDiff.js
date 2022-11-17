@@ -1,5 +1,5 @@
 const R = require('ramda')
-const { ifHas } = require('./utils')
+const { ifHas, attrsPrice, attrsProduction } = require('./utils')
 
 /**
  * @param {Record<string, any>} json 
@@ -8,41 +8,59 @@ const { ifHas } = require('./utils')
 function processDiff(json) {
     const generatePrices = ware => ([ 
         {
-            "@sel": `/wares/ware[@id='${ware['@id']}']/price/@min`,
-            "#text": String(ware.price['@min'])
+            attrs: {
+                sel: `/wares/ware[@id='${ware.attrs.id}']/price/@min`,
+            },
+            _text: String(ware.price.attrs.min)
         },
         {
-            "@sel": `/wares/ware[@id='${ware['@id']}']/price/@average`,
-            "#text": String(ware.price['@average'])
+            attrs: {
+                sel: `/wares/ware[@id='${ware.attrs.id}']/price/@average`,
+            },
+            _text: String(ware.price.attrs.average)
         },
         {
-            "@sel": `/wares/ware[@id='${ware['@id']}']/price/@max`,
-            "#text": String(ware.price['@max'])
+            attrs: {
+                sel: `/wares/ware[@id='${ware.attrs.id}']/price/@max`,
+            },
+            _text: String(ware.price.attrs.max)
         },
     ])
 
     const generateProduction = ware => {
         if (Array.isArray(ware.production)) {
             return ware.production.map(production => ({
-                "@sel": `/wares/ware[@id='${ware['@id']}']/production[@method='${production['@method']}']/@time`,
-                "#text": String(production['@time'])
+                attrs: {
+                    sel: `/wares/ware[@id='${ware.attrs.id}']/production[@method='${production.attrs.method}']/@time`,
+                },
+                _text: String(production.attrs.time)
             }))
         }
 
         return [{
-            "@sel": `/wares/ware[@id='${ware['@id']}']/production[@method='${ware.production['@method']}']/@time`,
-            "#text": String(ware.production['@time'])
+            attrs: {
+                sel: `/wares/ware[@id='${ware.attrs.id}']/production[@method='${ware.production.attrs.method}']/@time`,
+            },
+            _text: String(ware.production.attrs.time)
         }]
     }
 
-    const processed = json.ware.reduce((acc, ware) => {
+    const processed = json.wares.ware.reduce((acc, ware) => {
         const prices = ifHas ('price') (() => [], generatePrices) (ware)
         const productions = ifHas ('production') (() => [], generateProduction) (ware)
 
         return [ ...acc, ...prices, ...productions ]
     }, [])
 
-    return processed
+    return {
+        _declaration: json._declaration,
+        diff: {
+            attrs: {
+                "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            },
+            replace: processed,
+        },
+    }
 }
 
 module.exports = processDiff

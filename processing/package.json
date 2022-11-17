@@ -4,7 +4,8 @@
     "test": "nodemon index.js -q"
   },
   "dependencies": {
-    "ramda": "^0.28.0"
+    "ramda": "^0.28.0",
+    "xml-js": "^1.6.11"
   },
   "devDependencies": {
     "@types/ramda": "^0.28.19",
