@@ -8,7 +8,7 @@ const { ifHas, attrsPrice, attrsProduction } = require('./utils')
  */
 function processXML(params) {
     return function (xmlJSON) {
-        const getFactoryWares = ware => Boolean(ware.attrs.factoryname)
+        const getFactoryWares = R.hasPath(['attrs', 'factoryname'])
         const getRequiredTransportType = ware => ['container', 'liquid', 'solid', 'gas'].includes(ware.attrs.transport)
 
         const mapPrices = ware => ({

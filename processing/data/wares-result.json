@@ -14,235 +14,235 @@
         "attrs": {
           "sel": "/wares/ware[@id='advancedcomposites']/price/@min"
         },
-        "_text": "497"
+        "_text": "476"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='advancedcomposites']/price/@average"
         },
-        "_text": "621"
+        "_text": "594"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='advancedcomposites']/price/@max"
         },
-        "_text": "746"
+        "_text": "713"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='advancedcomposites']/production[@method='default']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='advancedcomposites']/production[@method='teladi']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='advancedelectronics']/price/@min"
         },
-        "_text": "817"
+        "_text": "782"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='advancedelectronics']/price/@average"
         },
-        "_text": "1167"
+        "_text": "1116"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='advancedelectronics']/price/@max"
         },
-        "_text": "1516"
+        "_text": "1450"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='advancedelectronics']/production[@method='default']/@time"
         },
-        "_text": "793"
+        "_text": "728"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='antimattercells']/price/@min"
         },
-        "_text": "140"
+        "_text": "134"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='antimattercells']/price/@average"
         },
-        "_text": "233"
+        "_text": "223"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='antimattercells']/price/@max"
         },
-        "_text": "325"
+        "_text": "311"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='antimattercells']/production[@method='default']/@time"
         },
-        "_text": "132"
+        "_text": "122"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='antimatterconverters']/price/@min"
         },
-        "_text": "286"
+        "_text": "273"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='antimatterconverters']/price/@average"
         },
-        "_text": "408"
+        "_text": "390"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='antimatterconverters']/price/@max"
         },
-        "_text": "531"
+        "_text": "508"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='antimatterconverters']/production[@method='default']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='claytronics']/price/@min"
         },
-        "_text": "1995"
+        "_text": "1908"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='claytronics']/price/@average"
         },
-        "_text": "2346"
+        "_text": "2244"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='claytronics']/price/@max"
         },
-        "_text": "2698"
+        "_text": "2581"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='claytronics']/production[@method='default']/@time"
         },
-        "_text": "991"
+        "_text": "909"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='claytronics']/production[@method='recycling']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='dronecomponents']/price/@min"
         },
-        "_text": "788"
+        "_text": "754"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='dronecomponents']/price/@average"
         },
-        "_text": "1052"
+        "_text": "1006"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='dronecomponents']/price/@max"
         },
-        "_text": "1314"
+        "_text": "1257"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='dronecomponents']/production[@method='default']/@time"
         },
-        "_text": "1320"
+        "_text": "1212"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='energycells']/price/@min"
         },
-        "_text": "12"
+        "_text": "11"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='energycells']/price/@average"
         },
-        "_text": "19"
+        "_text": "18"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='energycells']/price/@max"
         },
-        "_text": "26"
+        "_text": "25"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='energycells']/production[@method='default']/@time"
         },
-        "_text": "66"
+        "_text": "61"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='engineparts']/price/@min"
         },
-        "_text": "148"
+        "_text": "141"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='engineparts']/price/@average"
         },
-        "_text": "210"
+        "_text": "201"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='engineparts']/price/@max"
         },
-        "_text": "273"
+        "_text": "261"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='engineparts']/production[@method='default']/@time"
         },
-        "_text": "991"
+        "_text": "909"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='engineparts']/production[@method='teladi']/@time"
         },
-        "_text": "991"
+        "_text": "909"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='fieldcoils']/price/@min"
         },
-        "_text": "285"
+        "_text": "272"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='fieldcoils']/price/@average"
         },
-        "_text": "474"
+        "_text": "454"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='fieldcoils']/price/@max"
         },
-        "_text": "663"
+        "_text": "634"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='fieldcoils']/production[@method='default']/@time"
         },
-        "_text": "660"
+        "_text": "606"
       },
       {
         "attrs": {
@@ -254,283 +254,283 @@
         "attrs": {
           "sel": "/wares/ware[@id='foodrations']/price/@average"
         },
-        "_text": "25"
+        "_text": "24"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='foodrations']/price/@max"
         },
-        "_text": "34"
+        "_text": "32"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='foodrations']/production[@method='default']/@time"
         },
-        "_text": "264"
+        "_text": "243"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='graphene']/price/@min"
         },
-        "_text": "115"
+        "_text": "111"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='graphene']/price/@average"
         },
-        "_text": "191"
+        "_text": "183"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='graphene']/price/@max"
         },
-        "_text": "268"
+        "_text": "257"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='graphene']/production[@method='default']/@time"
         },
-        "_text": "264"
+        "_text": "243"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='helium']/price/@min"
         },
-        "_text": "43"
+        "_text": "41"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='helium']/price/@average"
         },
-        "_text": "51"
+        "_text": "49"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='helium']/price/@max"
         },
-        "_text": "59"
+        "_text": "57"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='hullparts']/price/@min"
         },
-        "_text": "168"
+        "_text": "161"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='hullparts']/price/@average"
         },
-        "_text": "241"
+        "_text": "230"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='hullparts']/price/@max"
         },
-        "_text": "313"
+        "_text": "300"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='hullparts']/production[@method='default']/@time"
         },
-        "_text": "991"
+        "_text": "909"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='hullparts']/production[@method='teladi']/@time"
         },
-        "_text": "991"
+        "_text": "909"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='hullparts']/production[@method='recycling']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='hydrogen']/price/@min"
         },
-        "_text": "57"
+        "_text": "54"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='hydrogen']/price/@average"
         },
-        "_text": "67"
+        "_text": "64"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='hydrogen']/price/@max"
         },
-        "_text": "78"
+        "_text": "74"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='ice']/price/@min"
         },
-        "_text": "30"
+        "_text": "29"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='ice']/price/@average"
         },
-        "_text": "35"
+        "_text": "33"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='ice']/price/@max"
         },
-        "_text": "41"
+        "_text": "39"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='majadust']/price/@min"
         },
-        "_text": "109"
+        "_text": "104"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='majadust']/price/@average"
         },
-        "_text": "240"
+        "_text": "229"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='majadust']/price/@max"
         },
-        "_text": "372"
+        "_text": "356"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='majadust']/production[@method='default']/@time"
         },
-        "_text": "660"
+        "_text": "606"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='majasnails']/price/@min"
         },
-        "_text": "41"
+        "_text": "39"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='majasnails']/price/@average"
         },
-        "_text": "67"
+        "_text": "64"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='majasnails']/price/@max"
         },
-        "_text": "94"
+        "_text": "90"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='majasnails']/production[@method='default']/@time"
         },
-        "_text": "496"
+        "_text": "455"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='meat']/price/@min"
         },
-        "_text": "34"
+        "_text": "32"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='meat']/price/@average"
         },
-        "_text": "56"
+        "_text": "53"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='meat']/price/@max"
         },
-        "_text": "79"
+        "_text": "75"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='meat']/production[@method='default']/@time"
         },
-        "_text": "496"
+        "_text": "455"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='medicalsupplies']/price/@min"
         },
-        "_text": "50"
+        "_text": "48"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='medicalsupplies']/price/@average"
         },
-        "_text": "76"
+        "_text": "73"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='medicalsupplies']/price/@max"
         },
-        "_text": "103"
+        "_text": "98"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='medicalsupplies']/production[@method='default']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='medicalsupplies']/production[@method='paranid']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='medicalsupplies']/production[@method='teladi']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='methane']/price/@min"
         },
-        "_text": "48"
+        "_text": "46"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='methane']/price/@average"
         },
-        "_text": "56"
+        "_text": "53"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='methane']/price/@max"
         },
-        "_text": "64"
+        "_text": "61"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='microchips']/price/@min"
         },
-        "_text": "926"
+        "_text": "886"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='microchips']/price/@average"
         },
-        "_text": "1091"
+        "_text": "1043"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='microchips']/price/@max"
         },
-        "_text": "1254"
+        "_text": "1199"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='microchips']/production[@method='default']/@time"
         },
-        "_text": "660"
+        "_text": "606"
       },
       {
         "attrs": {
@@ -542,7 +542,7 @@
         "attrs": {
           "sel": "/wares/ware[@id='missilecomponents']/price/@average"
         },
-        "_text": "11"
+        "_text": "10"
       },
       {
         "attrs": {
@@ -554,379 +554,379 @@
         "attrs": {
           "sel": "/wares/ware[@id='missilecomponents']/production[@method='default']/@time"
         },
-        "_text": "991"
+        "_text": "909"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='nividium']/price/@min"
         },
-        "_text": "500"
+        "_text": "478"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='nividium']/price/@average"
         },
-        "_text": "587"
+        "_text": "561"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='nividium']/price/@max"
         },
-        "_text": "676"
+        "_text": "646"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='nostropoil']/price/@min"
         },
-        "_text": "23"
+        "_text": "22"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='nostropoil']/price/@average"
         },
-        "_text": "40"
+        "_text": "38"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='nostropoil']/price/@max"
         },
-        "_text": "55"
+        "_text": "52"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='nostropoil']/production[@method='default']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='ore']/price/@min"
         },
-        "_text": "50"
+        "_text": "48"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='ore']/price/@average"
         },
-        "_text": "58"
+        "_text": "56"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='ore']/price/@max"
         },
-        "_text": "67"
+        "_text": "64"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='plasmaconductors']/price/@min"
         },
-        "_text": "885"
+        "_text": "846"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='plasmaconductors']/price/@average"
         },
-        "_text": "1180"
+        "_text": "1129"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='plasmaconductors']/price/@max"
         },
-        "_text": "1475"
+        "_text": "1411"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='plasmaconductors']/production[@method='default']/@time"
         },
-        "_text": "991"
+        "_text": "909"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='quantumtubes']/price/@min"
         },
-        "_text": "259"
+        "_text": "248"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='quantumtubes']/price/@average"
         },
-        "_text": "345"
+        "_text": "330"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='quantumtubes']/price/@max"
         },
-        "_text": "432"
+        "_text": "413"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='quantumtubes']/production[@method='default']/@time"
         },
-        "_text": "793"
+        "_text": "728"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='refinedmetals']/price/@min"
         },
-        "_text": "103"
+        "_text": "98"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='refinedmetals']/price/@average"
         },
-        "_text": "171"
+        "_text": "163"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='refinedmetals']/price/@max"
         },
-        "_text": "239"
+        "_text": "228"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='refinedmetals']/production[@method='default']/@time"
         },
-        "_text": "165"
+        "_text": "152"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='scanningarrays']/price/@min"
         },
-        "_text": "969"
+        "_text": "927"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='scanningarrays']/price/@average"
         },
-        "_text": "1211"
+        "_text": "1159"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='scanningarrays']/price/@max"
         },
-        "_text": "1454"
+        "_text": "1391"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='scanningarrays']/production[@method='default']/@time"
         },
-        "_text": "660"
+        "_text": "606"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='scanningarrays']/production[@method='teladi']/@time"
         },
-        "_text": "660"
+        "_text": "606"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='scrapmetal']/price/@min"
         },
-        "_text": "366"
+        "_text": "350"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='scrapmetal']/price/@average"
         },
-        "_text": "432"
+        "_text": "413"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='scrapmetal']/price/@max"
         },
-        "_text": "496"
+        "_text": "475"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='scrapmetal']/production[@method='processing']/@time"
         },
-        "_text": "66"
+        "_text": "61"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='shieldcomponents']/price/@min"
         },
-        "_text": "130"
+        "_text": "125"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='shieldcomponents']/price/@average"
         },
-        "_text": "217"
+        "_text": "207"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='shieldcomponents']/price/@max"
         },
-        "_text": "304"
+        "_text": "291"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='shieldcomponents']/production[@method='default']/@time"
         },
-        "_text": "1320"
+        "_text": "1212"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='silicon']/price/@min"
         },
-        "_text": "128"
+        "_text": "123"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='silicon']/price/@average"
         },
-        "_text": "150"
+        "_text": "143"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='silicon']/price/@max"
         },
-        "_text": "173"
+        "_text": "165"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='siliconwafers']/price/@min"
         },
-        "_text": "207"
+        "_text": "199"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='siliconwafers']/price/@average"
         },
-        "_text": "344"
+        "_text": "329"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='siliconwafers']/price/@max"
         },
-        "_text": "482"
+        "_text": "461"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='siliconwafers']/production[@method='default']/@time"
         },
-        "_text": "199"
+        "_text": "182"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='smartchips']/price/@min"
         },
-        "_text": "53"
+        "_text": "51"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='smartchips']/price/@average"
         },
-        "_text": "66"
+        "_text": "63"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='smartchips']/price/@max"
         },
-        "_text": "80"
+        "_text": "76"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='smartchips']/production[@method='default']/@time"
         },
-        "_text": "660"
+        "_text": "606"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sojabeans']/price/@min"
         },
-        "_text": "46"
+        "_text": "44"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sojabeans']/price/@average"
         },
-        "_text": "78"
+        "_text": "74"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sojabeans']/price/@max"
         },
-        "_text": "107"
+        "_text": "103"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sojabeans']/production[@method='default']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sojahusk']/price/@min"
         },
-        "_text": "22"
+        "_text": "21"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sojahusk']/price/@average"
         },
-        "_text": "37"
+        "_text": "36"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sojahusk']/price/@max"
         },
-        "_text": "52"
+        "_text": "50"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sojahusk']/production[@method='default']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spacefuel']/price/@min"
         },
-        "_text": "69"
+        "_text": "66"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spacefuel']/price/@average"
         },
-        "_text": "153"
+        "_text": "147"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spacefuel']/price/@max"
         },
-        "_text": "239"
+        "_text": "228"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spacefuel']/production[@method='default']/@time"
         },
-        "_text": "528"
+        "_text": "485"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spaceweed']/price/@min"
         },
-        "_text": "87"
+        "_text": "83"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spaceweed']/price/@average"
         },
-        "_text": "191"
+        "_text": "183"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spaceweed']/price/@max"
         },
-        "_text": "296"
+        "_text": "283"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spaceweed']/production[@method='default']/@time"
         },
-        "_text": "660"
+        "_text": "606"
       },
       {
         "attrs": {
@@ -938,211 +938,211 @@
         "attrs": {
           "sel": "/wares/ware[@id='spices']/price/@average"
         },
-        "_text": "23"
+        "_text": "22"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spices']/price/@max"
         },
-        "_text": "33"
+        "_text": "31"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='spices']/production[@method='default']/@time"
         },
-        "_text": "660"
+        "_text": "606"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sunriseflowers']/price/@min"
         },
-        "_text": "56"
+        "_text": "53"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sunriseflowers']/price/@average"
         },
-        "_text": "92"
+        "_text": "88"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sunriseflowers']/price/@max"
         },
-        "_text": "129"
+        "_text": "124"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='sunriseflowers']/production[@method='default']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='superfluidcoolant']/price/@min"
         },
-        "_text": "104"
+        "_text": "100"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='superfluidcoolant']/price/@average"
         },
-        "_text": "173"
+        "_text": "165"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='superfluidcoolant']/price/@max"
         },
-        "_text": "243"
+        "_text": "233"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='superfluidcoolant']/production[@method='default']/@time"
         },
-        "_text": "264"
+        "_text": "243"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='swampplant']/price/@min"
         },
-        "_text": "58"
+        "_text": "56"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='swampplant']/price/@average"
         },
-        "_text": "97"
+        "_text": "93"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='swampplant']/price/@max"
         },
-        "_text": "135"
+        "_text": "129"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='swampplant']/production[@method='default']/@time"
         },
-        "_text": "496"
+        "_text": "455"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='teladianium']/price/@min"
         },
-        "_text": "140"
+        "_text": "134"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='teladianium']/price/@average"
         },
-        "_text": "233"
+        "_text": "223"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='teladianium']/price/@max"
         },
-        "_text": "326"
+        "_text": "312"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='teladianium']/production[@method='default']/@time"
         },
-        "_text": "132"
+        "_text": "122"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='turretcomponents']/price/@min"
         },
-        "_text": "189"
+        "_text": "181"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='turretcomponents']/price/@average"
         },
-        "_text": "314"
+        "_text": "301"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='turretcomponents']/price/@max"
         },
-        "_text": "441"
+        "_text": "422"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='turretcomponents']/production[@method='default']/@time"
         },
-        "_text": "1981"
+        "_text": "1818"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='water']/price/@min"
         },
-        "_text": "37"
+        "_text": "36"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='water']/price/@average"
         },
-        "_text": "61"
+        "_text": "59"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='water']/price/@max"
         },
-        "_text": "86"
+        "_text": "82"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='water']/production[@method='default']/@time"
         },
-        "_text": "132"
+        "_text": "122"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='weaponcomponents']/price/@min"
         },
-        "_text": "197"
+        "_text": "189"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='weaponcomponents']/price/@average"
         },
-        "_text": "328"
+        "_text": "314"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='weaponcomponents']/price/@max"
         },
-        "_text": "459"
+        "_text": "439"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='weaponcomponents']/production[@method='default']/@time"
         },
-        "_text": "1981"
+        "_text": "1818"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='wheat']/price/@min"
         },
-        "_text": "22"
+        "_text": "21"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='wheat']/price/@average"
         },
-        "_text": "36"
+        "_text": "35"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='wheat']/price/@max"
         },
-        "_text": "51"
+        "_text": "49"
       },
       {
         "attrs": {
           "sel": "/wares/ware[@id='wheat']/production[@method='default']/@time"
         },
-        "_text": "330"
+        "_text": "303"
       },
       {
         "attrs": {

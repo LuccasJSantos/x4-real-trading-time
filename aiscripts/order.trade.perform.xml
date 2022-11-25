@@ -7,11 +7,16 @@
 
             <!-- 
                 Trading time calculation is 'quite' simple:
-                    - each 'service crew' on board will collaborate in the following matter:
+                    - each 'service crew' on board will collaborate in the following manner:
                         - 1 crew member can carry up to 14 m³ (carry_volume)
                         - 1 crew member takes 2 seconds to load/unload the amount above (time_to_transfer)
                     - the amount each crew member will load/unload is defined as follows:
-                        - amount_by_crew_member = amount * ware.volume / (service_crew.count + dock.crew.count)
+                        - calculate crew efficiency:
+                            - get the average service crew skill level
+                            - remap it to a range of 1 to 1.75
+                        - service_crew_boost = service_crew.count * efficiency
+                        - service_crew_helping = service_crew_boost + dock_crew.count
+                        - amount_by_crew_member = amount * ware.volume / (service_crew_helping)
                     - the time it will take for the trade to complete is defined as follows:
                         - time_load_unload = amount_by_crew_member * time_to_transfer (2 seconds) / carry_volume (14 m³) -->
 
