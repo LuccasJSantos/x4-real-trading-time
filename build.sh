@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 # Build script for Linux/macOS - creates dist/ folder and copies mod files
 
 echo "🏗️  Creating dist folder..."
