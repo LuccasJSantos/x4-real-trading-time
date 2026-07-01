@@ -61,7 +61,7 @@
             <!-- the actual time it will take for the trade to complete -->
             <set_value name="$ltttradetime" exact="($lttcrewtradecarry * $lttcrewcarrytime / $lttcrewcarryvolume)s" />
 
-            <!-- <debug_text chance="100" text="'%1 (%2) Trading %3x %4. %5 employees working on it (%6 provided by dock crew). (%7 sec required - crew efficiency of %8).'.[this.ship.knownname, this.ship.idcode, $tradedeal.transferredamount, $tradedeal.ware.name, $lttcargoservice, $lttservicecrewondock, $ltttradetime, $lttefficiency]" /> -->
+            <debug_text chance="100" text="'%1 (%2) Trading %3x %4. %5 employees working on it (%6 provided by dock crew). (%7 sec required - crew efficiency of %8).'.[this.ship.knownname, this.ship.idcode, $tradedeal.transferredamount, $tradedeal.ware.name, $lttcargoservice, $lttservicecrewondock, $ltttradetime, $lttefficiency]" />
 
             <wait exact="$ltttradetime" />
         </do_if>
