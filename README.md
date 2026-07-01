@@ -93,6 +93,6 @@ For more detailed information on Steam Workshop modding, see the official docume
 - [EGOSOFT Steam Workshop Guide](https://wiki.egosoft.com/X%20Rebirth%20Wiki/Modding%20support/Steam%20Workshop%20for%20X%20Rebirth%20and%20X4/)
 - [Steam Workshop Legal Agreement](https://steamcommunity.com/workshop/workshoplegalagreement)
 
-## License & Credits
+## Credits
 
 Created by Galahad on Steam Workshop. This is a fan-made modification for X4: Foundations.
