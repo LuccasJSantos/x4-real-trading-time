@@ -25,7 +25,7 @@ This mod makes changes that should be in the base game. It essentially changes t
 
 ## Building
 
-Build scripts are provided for both Windows and Linux:
+Build scripts are provided for Windows and Linux/macOS:
 
 ### Windows
 ```bash
